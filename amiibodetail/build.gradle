@@ -19,5 +19,5 @@ dependencies {
     implementation project(path: ':core')
     implementation project(path: ':network')
     testImplementation project(path: ':testutils')
-    implementation project(path: ':searchgames')
+    implementation project(path: ':searchgamesresult')
 }

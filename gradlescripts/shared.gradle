@@ -43,14 +43,16 @@ android {
 
     }
 
-    viewBinding {
-        enabled = true
-    }
 
     testOptions {
         unitTests {
             includeAndroidResources true
         }
+    }
+
+    buildFeatures {
+        viewBinding true
+        dataBinding false
     }
 
     packagingOptions {

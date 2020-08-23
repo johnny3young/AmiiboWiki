@@ -189,6 +189,7 @@ dependencies {
     implementation project(path: ':network')
     implementation project(path: ':gamedetail')
     implementation project(path: ':settings')
+    implementation project(path: ':searchgames')
 
     testImplementation project(path: ':testutils')
 }
